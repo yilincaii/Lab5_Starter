@@ -1,6 +1,16 @@
 # Lab 5 - Starter
 Make sure you make a PR to your own repo's main and not the class' repo!! Otherwise you will lose points!!
 ## Name: Yilin Cai 
+
+---
+
+## Note on Branch Usage 
+
+Before Part 2 (GitHub Actions), all my development work — including changes to `README.md` and the implementation of `explore.js` / `expose.js` — was done on the `setup` branch. After completing the first part, I merged `setup` into `master` to proceed with GitHub Actions, following the lab requirements.
+
+From that point onward, all commits and pull requests related to GitHub Actions and automated testing were conducted between the `master` and `testing` branches
+
+
 ---
 ## GitHub Pages Links
 
