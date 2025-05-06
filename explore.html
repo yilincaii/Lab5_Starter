@@ -8,9 +8,11 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <title>Lab 5 - Party Horn</title>
 
-  <!-- Main Stylesheet & Scripts -->
+  <!-- Main Stylesheet -->
   <link rel="stylesheet" href="assets/styles/global.css" />
-  <script src="./assets/scripts/explore.js" type="module"></script>
+
+  <!-- JS for speech synthesis -->
+  <script src="./assets/scripts/reveal.js" type="module"></script>
 </head>
 
 <body>
@@ -19,17 +21,22 @@
       <a href="expose.html" title="Go to expose page">Pt 1. Expose</a>
     </nav>
   </header>
+
   <main>
     <section id="explore">
       <header>
         <h2>Explore - Speech Synthesis</h2>
       </header>
-      <img src="assets/images/smiling.png" alt="Smiling face" />
-      <textarea name="text-to-speak" id="text-to-speak" rows="10" placeholder="Text to speak here"></textarea>
-      <select name="voice" id="voice-select">
+
+      <img id="face" src="assets/images/smiling.png" alt="Smiling face" />
+
+      <textarea id="text-to-speak" rows="10" placeholder="Type something to speak..."></textarea>
+
+      <select id="voice-select">
         <option value="select" disabled selected>Select Voice:</option>
       </select>
-      <button>Press to Talk</button>
+
+      <button id="speak-button">Press to Talk</button>
     </section>
   </main>
 </body>
